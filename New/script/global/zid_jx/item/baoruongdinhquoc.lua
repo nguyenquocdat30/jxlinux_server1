@@ -1,0 +1,16 @@
+Include("\\script\\global\\zid_jx\\log\\log.lua")
+
+function main()
+	if CountFreeRoomByWH(2, 3) <= 0 then
+		Talk(1,"","Vui lßng ®Ó trèng Ýt nhÊt 2x3 « hµnh trang míi cã thÓ sö dông vËt phÈm nµy!")
+		return 1
+	end
+	
+	local a = {159,160,161,162,163}
+	
+	local i = AddGoldItem(0, a[random(1, getn(a))])
+	local e = GetItemName(i)
+	Msg2Player("B¹n nhËn ®­îc  <color=yellow>"..e.."<color> tõ B¶o R­¬ng §Þnh Quèc!")
+	SaveLogs("baoruongdinhquoc", format("[%s] | Nh©n VËt : %s | Tµi Kho¶n :(%s) | NhËn §­îc ("..e..") Tõ B¶o R­¬ng §Þnh Quèc!",date("%H:%M:%S - %d/%m/%Y"),GetName(),GetAccount()));
+	return 0
+end

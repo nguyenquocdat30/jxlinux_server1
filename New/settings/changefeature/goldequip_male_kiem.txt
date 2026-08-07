@@ -1,0 +1,2 @@
+Name	Feature	Price
+Ki’m	58	1000000
