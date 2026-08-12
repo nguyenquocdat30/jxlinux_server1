@@ -1,0 +1,25 @@
+-- Doc + don entry rac cua SimCore.fighterList khi no con tro nham vao npc vua duoc tao.
+-- CHI xoa entry (khong goi SimCore:Remove, khong DelNpc gi ca), va CHI xoa khi entry
+-- khong co children (de an toan, tranh anh huong nhom cong dan phu thuoc).
+function TanThu_SimCityCacheClean(nNpcIndex)
+	if not nNpcIndex or nNpcIndex <= 0 then return 0 end
+	if not SimCore or not SimCore.fighterList then return 0 end
+	local nCleaned = 0
+	for nKey, tbNpc in SimCore.fighterList do
+		if tbNpc and tbNpc.finalIndex == nNpcIndex then
+			local nChildCount = 0
+			if tbNpc.children then nChildCount = getn(tbNpc.children) end
+			if nChildCount == 0 then
+				SimCore.fighterList[nKey] = nil
+				if SimCore.totalFighters and SimCore.totalFighters > 0 then
+					SimCore.totalFighters = SimCore.totalFighters - 1
+				end
+				if SimCore.removedIds then
+					tinsert(SimCore.removedIds, nKey)
+				end
+				nCleaned = nCleaned + 1
+			end
+		end
+	end
+	return nCleaned
+end
