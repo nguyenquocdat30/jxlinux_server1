@@ -1,2 +1,0 @@
-Name	Feature	Price
-Ná	46	1000000

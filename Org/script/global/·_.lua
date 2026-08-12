@@ -1,1 +1,0 @@
-Include("\\script\\global\\pgaming\\npc\\lequan.lua")

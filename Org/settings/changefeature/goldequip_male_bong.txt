@@ -1,2 +1,0 @@
-Name	Feature	Price
-Bæng	41	1000000
