@@ -2,8 +2,8 @@ TASK	SCRIPT
 1	\script\两湖区\巴陵县\npc\tw_ontime.lua
 2	\script\中原南区\武当派\十方殿\npc\wd_ontime.lua
 3	\script\missions\pktimer1.lua
-4	\script\missions\tongkimxua\smalltimer.lua
-5	\script\missions\tongkimxua\totaltimer.lua
+4	\script\missions\宋金战场pk战\宋金战场消息触发器.lua
+5	\script\missions\宋金战场pk战\赛程总时间触发器.lua
 6	\script\中原南区\稻香村\npc\稻香村_合药记时器.lua
 7	\script\江南区\龙泉村\npc\修刀任务记时器.lua
 8	\script\西南南区\翠烟门\守玉厅\npc\cy20_ontimer.lua
