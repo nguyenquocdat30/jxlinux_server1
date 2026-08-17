@@ -39,6 +39,7 @@ function main()
 		--tinsert(tbOption, {"§æi Tªn Nh©n VËt",maindoiten})
 		--tinsert(tbOption, {"ChuyÓn §æi M«n Ph¸i", chuyenmonphai})
 		--tinsert(tbOption, {"Mua Danh HiÖu", muavsmoi})
+		tinsert(tbOption, {"",})
 		tinsert(tbOption, {"Ta Muèn Thay §æi Tr¹ng Th¸i", changeCamp})
 		--tinsert(tbOption, {"Häc Toµn Bé Kü N¨ng M«n Ph¸i", HoTroKyNang})
 		--tinsert(tbOption, {"NhËn Vßng S¸ng Hç Trî T©n Thñ", mainvongsang})
@@ -47,6 +48,7 @@ function main()
 		tinsert(tbOption, {"Hñy VËt PhÈm", Disposeitem})
 		tinsert(tbOption, {"Fix lag thÇn hµnh phï", fixphu})
 		--tinsert(tbOption, {"NhËn Tµi Lanh §¹o", tailanhdao})
+		tinsert(tbOption, {"Ta Muèn NhËn l¹i ®å dïng t©n thñ", reclaimNewBieRewards})
 		tinsert(tbOption, {"§ãng.", onCancel})
 	CreateNewSayEx(szTitlez, tbOption)
 	return 1
@@ -836,7 +838,14 @@ AddLeadExp(1000000)
 end
 end
 
-
+function reclaimNewBieRewards()
+	thuongcodinh ={ 
+		{szName="ThÇn Hµnh Phï", tbProp={6,1,1266,1,0,0}, nCount = 1, nBindState=-2},
+		{szName="CÈm Nang T©n Thñ", tbProp={6,1,4258,1,0,0}, nCount = 1, nBindState=-2},
+		{szName="Thæ §Þa Phï V« H¹n", tbProp={6,1,438,1,0,0}, nCount = 1, nBindState=-2},
+	}
+	tbAwardTemplet:GiveAwardByList(thuongcodinh, "Reclaim PHANTHUONGtanthu");
+end
 
 
 

@@ -9,6 +9,10 @@ LENHBAI_QTV = "<#><link=image[0]:\\spr\item\script\yupai_haozhao.spr>L÷nh Bµi GM
 --																	GM - NhÀn C∏c Loπi ßi”m														   --
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 function changeCamp()
+if GetLevel() < 10 then
+	Talk(1,"",""..myplayersex().."C∏c hπ kh´ng ÆÒ c p, h∑y luy÷n tÀp th™m")
+	return 1
+end
 local szTitle = "muËn ÆÊi sang mµu trπng th∏i nµo d≠Ìi Æ©y?";
 	local tbOption = {};
 		for i = 1, getn(TAB_LIST_GAMEMASTER) do
