@@ -81,33 +81,22 @@ function main(bExchangeIn)
 		end
 	end
 	
--------------------------------------------------------------------------tanthulogin
-if GetLevel () < 10 and GetTask(5550) < 1 then 
+------------------------------------------------------------------------- Qua Tang Tan Thu --- 
+	if GetLevel () < 2 and GetTask(5550) < 1 then 
 		thuongcodinh ={ -- thuong do vao hanh trang
 			{szName="ThÇn Hµnh Phï", tbProp={6,1,1266,1,0,0}, nCount = 1, nBindState=-2},
 			{szName="CÈm Nang T©n Thñ", tbProp={6,1,4258,1,0,0}, nCount = 1, nBindState=-2},
 			{szName="Thæ §Þa Phï V« H¹n", tbProp={6,1,438,1,0,0}, nCount = 1, nBindState=-2},
 			{szName="Tö MÉu LÖnh", tbProp={6,1,1427,1,0,0}, nCount = 1, nBindState=-2},
-			{szName="Tói M¸u T©n Thñ", tbProp={6,1,4414,1,0,0}, nCount = 1, nBindState=-2},
-			{szName="R­¬ng Vò KhÝ Xanh T©n Thñ", tbProp={6,1,4415,1,0,0}, nCount = 1, nBindState=-2},
-			{szName="T©n Thñ Giíi ChØ", tbProp={0,5290}, nQuality=1, nCount = 1, nBindState=-2},
-			{szName="Ngùa Tóc S­¬ng", tbProp={0,10,2,10,0,0,0}, nCount = 1, nBindState=-2},
-			{szName="Trang BÞ Kim Phong", tbProp={0,177}, nQuality=1, nCount = 1, nBindState=-2},
-			{szName="Trang BÞ Kim Phong", tbProp={0,178}, nQuality=1, nCount = 1, nBindState=-2},
-			{szName="Trang BÞ Kim Phong", tbProp={0,179}, nQuality=1, nCount = 1, nBindState=-2},
-			{szName="Trang BÞ Kim Phong", tbProp={0,180}, nQuality=1, nCount = 1, nBindState=-2},
-			{szName="Trang BÞ Kim Phong", tbProp={0,181}, nQuality=1, nCount = 1, nBindState=-2},
-			{szName="Trang BÞ Kim Phong", tbProp={0,182}, nQuality=1, nCount = 1, nBindState=-2},
-			{szName="Trang BÞ Kim Phong", tbProp={0,183}, nQuality=1, nCount = 1, nBindState=-2},
-			{szName="Trang BÞ Kim Phong", tbProp={0,184}, nQuality=1, nCount = 1, nBindState=-2},
-			{szName="Trang BÞ Kim Phong", tbProp={0,185}, nQuality=1, nCount = 1, nBindState=-2},
 		}
 		local nCurLevel = GetLevel()
-		local nAddLevel = 120 - nCurLevel -- cap do khi bat dau
+		local nAddLevel = 1 - nCurLevel -- cap do khi bat dau
 		ST_LevelUp(nAddLevel)
 		tbAwardTemplet:GiveAwardByList(thuongcodinh, "PHANTHUONGtanthu");
 		SetTask(5550,GetTask(5550)+1)
+		Earn(10000)
 	end
+
 --end
 
 
@@ -173,18 +162,21 @@ function main_delaysync(nStep)
 		return 1
 	end
 end
+
 function no()
 	if chuangong_login ~= nil then
 		chuangong_login()
 	end
 end
+
 function WriteLogPro(data,str)
 	local Data2 = openfile(""..data.."", "a+");
 	write(Data2,tostring(str));
 	closefile(Data2);
 end
+
 function logplayer(zFile,szMsg)
   local handle = openfile(zFile,"a")
   write(handle,format("%s\n",szMsg));
   closefile(handle);
- end
+end
