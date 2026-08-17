@@ -42,7 +42,7 @@ if CalcFreeItemCellCount() < 10 then
 	return 1
  end
 Say(""..myplayersex().." H·y Lùa Chän M«n Ph¸i Muèn Gia NhËp",
-14,
+11,
 	"ThiÕu L©m/ThieuLam",
 	"Thiªn V­¬ng/ThienVuong",
 	"§­êng M«n/DuongMon",
@@ -53,9 +53,6 @@ Say(""..myplayersex().." H·y Lùa Chän M«n Ph¸i Muèn Gia NhËp",
 	"Thiªn NhÉn/ThienNhan",
 	"Vâ §ang/VoDang",
 	"C«n L«n/ConLon",
-	"Hoa S¬n/HoaSon",
-    	"Vò Hån/VuHon",
-      	 "Tiªu Dao/tieudao",
 	"Th«i §Ó Ta Suy NghÜ/No")
 end
 ----------------------------------------------------------Ph¸i ThiÕu L©m----------------------------------------------------------------------------------------------------------------------------
@@ -295,84 +292,8 @@ function ConLon()
 		Talk(1,"","Muèn Gia NhËp Bæn Ph¸i CÇn Ph¶i Cëi HÕt Trang BÞ Trªn Ng­êi Xuèng")
 	end
 end
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-function HoaSon()
-		
-	if GetLastFactionNumber() == 10 then
-		Talk(1,"","Ta Cho PhÐp Ng­¬i Xuèng Nói T×m §­êng Häc NghÖ Míi\nKhi Nµo Muèn Quay L¹i Bæn M«n Th× L¹i T×m Ta..!")
-		return 0;
-	end
---if (GetSex() == 1) then
-		if (CalcItemCount(2,0,-1,-1,-1) == 0) then
-			do_clear_skill()
-			SetFaction("huashan")
-			SetLastFactionNumber(10)
-			SetTask(10,10*256) rollback_prop()
-			SetCamp(3) SetCurCamp(3)
-			SetRank(89) SetSeries(2)
-			del_all_skill() add_hs(GetLevel())
-			SetTask(TinVatMonPhai,0)
-			addskill() 
-			do_clear_skill()
-		else
-			Talk(1,"","Muèn Gia NhËp Bæn Ph¸i CÇn Ph¶i Cëi HÕt Trang BÞ Trªn Ng­êi Xuèng")
-		end
-	--else
-	--	Talk(1,"","Ph¸i Thóy Yªn YÓu §iÖu Thôc N÷ Tõ X­a §Õn Nay ChØ Thu NhËn N÷ §Ö Tö Kh«ng Bao Giê Thu NhËn Nam §Ö Tö")
-	--end
-end
 ---------------------------------------------------------------------------------------------------------------------
-function VuHon()
-	
-	if GetLastFactionNumber() == 11 then
-		Talk(1,"","Ta Cho PhÐp Ng­¬i Xuèng Nói T×m §­êng Häc NghÖ Míi\nKhi Nµo Muèn Quay L¹i Bæn M«n Th× L¹i T×m Ta..!")
-		return 0;
-	end
-	if (CalcItemCount(2,0,-1,-1,-1) == 0) then
-		do_clear_skill()
-		SetSeries(3);
-		SetFaction("wuhun");
-		SetCamp(1);
-		SetCurCamp(1);
-		SetRank(90);
-		SetLastFactionNumber(11);
-		SetTask(12,10*256);
-		--AddItem(0,0,7,1,0,0) AddItem(0,0,8,1,0,0)
-		del_all_skill() add_wh(GetLevel())
-		SetTask(TinVatMonPhai,0)
-		addskill() 
-		do_clear_skill()
-	Msg2SubWorld("Chóc mõng ®¹i hiÖp <color=green>"..GetName().."<color=cyan> Gia nhËp thµnh c«ng <color=yellow>Vò Hån!!!")
-	else
-		Talk(1,"","Muèn Gia NhËp Bæn Ph¸i CÇn Ph¶i Cëi HÕt Trang BÞ Trªn Ng­êi Xuèng")
-	end
-end
-------------------------------
-function tieudao()
-	if GetLastFactionNumber() == 12 then
-		Talk(1,"","Ta Cho PhÐp Ng­¬i Xuèng Nói T×m §­êng Häc NghÖ Míi\nKhi Nµo Muèn Quay L¹i Bæn M«n Th× L¹i T×m Ta..!")
-		return 0;
-	end
-	if (CalcItemCount(2,0,-1,-1,-1) == 0) then	
-		do_clear_skill()
-		SetFaction("xiaoyao");
-		SetSeries(4)
-		SetCamp(3);
-		SetCurCamp(3);
-		SetRank(98);
-		SetTask(137,71)
-		SetTask(4464,10*256);
-		SetLastFactionNumber(12);
-		--AddItem(0,1,3,1,4,0) 
-		addskill()
-		del_all_skill() add_xy(GetLevel())
-		SetTask(TinVatMonPhai,0)
-		do_clear_skill()
-	Msg2SubWorld("Chóc mõng ®¹i hiÖp <color=green>"..GetName().."<color=cyan> Gia nhËp thµnh c«ng <color=yellow>Tiªu Dao!!!")
-	else
-		Talk(1,"","Muèn Gia NhËp Bæn Ph¸i CÇn Ph¶i Cëi HÕt Trang BÞ Trªn Ng­êi Xuèng")
-	end
-end
+---------------------------------------------------------------------------------------------------------------------
 function addskill()
 	if GetTask(skill21) == 1 then
  	tbAwardTemplet:GiveAwardByList({{szName="kslii",tbProp={6,1,4386,1,0,0},nCount=1,},}, "test", 1);

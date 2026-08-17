@@ -65,9 +65,8 @@ maptab[1]=212;
 clearskillmap = {243, 245, 247, 249, 251, 253,255}
 
 adddialognpc = {
-	{1998,53, 1621,3172,"\\script\\xiaoyao\\npc\\detu_xiaoyao.lua","Tiªu Dao MËt Sø"},
-	{1997,53, 1625,3176,"\\script\\wumumenpai\\vuhonduonghauquan.lua","Vò Hån §­êng HËu Qu©n"},
-	{1996,53,1630,3181,"\\script\\huashan\\npchuashan.lua","Hoa S¬n Èn SÜ"},
+	-- Da tat NPC gia nhap Tieu Dao, Vu Hon va Hoa Son.
+	-- Giu script/du lieu phai de nhan vat cu van dang nhap an toan.
 
 	{377,387,1570,3132,"\\script\\global\\ËÍÐÅÈÎÎñ.lua","DÞch quan"},
 	{377,388,1570,3132,"\\script\\global\\ËÍÐÅÈÎÎñ.lua","DÞch quan"},
