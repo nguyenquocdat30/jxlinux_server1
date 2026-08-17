@@ -41,7 +41,6 @@ if GetLevel() < 10 then
 	Talk(1,"",""..myplayersex().."C¸c h¹ kh«ng ®ñ cÊp, h·y luyÖn tËp thªm")
 	return 1
 end
-end
 if CalcFreeItemCellCount() < 10 then
 	Talk(1,"",""..myplayersex().."Vui Lßng Chõa 10 Chç Trèng")
 	return 1
