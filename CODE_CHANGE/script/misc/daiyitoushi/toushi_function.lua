@@ -38,7 +38,7 @@ dofile("script/misc/daiyitoushi/toushi_function.lua")
 end
 function ChonMonPhai()
 if GetLevel() < 10 then
-	Talk(1,"",""..myplayersex().."C¸c h¹ kh«ng ®ñ cÊp, h·y luyÖn tËp thªm")
+	Talk(1,"",""..myplayersex().."kh«ng ®ñ cÊp, h·y luyÖn tËp thªm")
 	return 1
 end
 if CalcFreeItemCellCount() < 10 then
