@@ -47,7 +47,7 @@ local tbVnNewItemDropAward = {
 
 --====================================-----
 	/*[[   Tæng Sè §å Xanh R¬i   ]]*/
-	Award_ItemBlue_Drop = random(10,20);
+	Award_ItemBlue_Drop = random(20,30);
 	/*[[   §¼ng CÊp §å Xanh R¬i   ]]*/
 	Lever_ItemBlue_Drop = random(8,10);
 	/*[[   Th­ëng Exp GiÕt Boss   ]]*/
