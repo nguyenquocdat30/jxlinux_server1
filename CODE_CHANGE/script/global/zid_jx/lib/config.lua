@@ -110,7 +110,7 @@ RockPaperScissors_Quest = 1;
 -- O¼n Tï T×
 -- /script/global/zid_jx/tinhnang/oantuty/main.lua
 ----------------------------------------
-CoinStall = 0;
+CoinStall = 1;
 -- Kú Tr©n C¸c
 -- /script/shop/shop_checkmap.lua
 ----------------------------------------
