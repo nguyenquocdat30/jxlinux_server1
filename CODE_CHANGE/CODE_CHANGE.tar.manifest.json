@@ -1,0 +1,16 @@
+{
+  "archive": "D:\\GAME\\VoLamOffline\\Github\\jxlinux_server1\\CODE_CHANGE\\CODE_CHANGE.tar",
+  "archive_bytes": 76528640,
+  "archive_sha256": "1f6c2227416e932e0bb7d67b8d4cc4cc1c1f63c976a0672f86ffd6a90b5aa94a",
+  "content_bytes": 69112128,
+  "directories": 1778,
+  "entries": 9978,
+  "excluded_backup_directories": 0,
+  "excluded_backup_files": 0,
+  "files": 8200,
+  "map20_pua_utf8_entries": 0,
+  "map20_raw_gbk_entries": 66,
+  "max_raw_path_bytes": 94,
+  "raw_map20_prefix_hex": "73 63 72 69 70 74 2f ce f7 c4 cf b1 b1 c7 f8 2f bd ad bd f2 b4 e5 2f",
+  "tree_content_sha256": "d4d37d6c082196077d7a0b0d7b98c9f3fead85fb277b1b2f97bcc6a9c8384b04"
+}
