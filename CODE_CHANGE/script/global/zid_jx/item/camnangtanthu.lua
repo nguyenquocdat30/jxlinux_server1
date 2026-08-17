@@ -29,24 +29,24 @@ function main()
 	dofile("script/global/zid_jx/item/camnangtanthu.lua");
 		local szTitlez =  CAMNANG_TANTHU.."Chµo mõng b¹n ®Õn víi m¸y chñ <color=green>"..Server_Name.."<color>.<enter>Chóc c¸c nh©n sü b«n tÈu giang hå vui vÎ t¹i. Xin ch©n thµnh c¶m ¬n quý nh©n sü... !"
 		local tbOption = {};
-		if (ScratchCards == 1) then
-			tinsert(tbOption, {"Tham Gia - §¸nh Bµi Cµo", mainbaicao})
-		end
-		if (RockPaperScissors_Quest == 1) then
-			tinsert(tbOption, {"Tham Gia - O¼n Tï T×", mainoantuti})
-		end
-		tinsert(tbOption, {"Ta muèn: Xo¸ PK + TÈy Tñy + §æi Mµu PK - XuÊt S­ :@!",TayTuyFree})
-		tinsert(tbOption, {"§æi Tªn Nh©n VËt",maindoiten})
-		tinsert(tbOption, {"ChuyÓn §æi M«n Ph¸i", chuyenmonphai})
-		tinsert(tbOption, {"Mua Danh HiÖu", muavsmoi})
+		--if (ScratchCards == 1) then
+		--	tinsert(tbOption, {"Tham Gia - §¸nh Bµi Cµo", mainbaicao})
+		--end
+		--if (RockPaperScissors_Quest == 1) then
+		--	tinsert(tbOption, {"Tham Gia - O¼n Tï T×", mainoantuti})
+		--end
+		--tinsert(tbOption, {"Ta muèn: Xo¸ PK + TÈy Tñy + §æi Mµu PK - XuÊt S­ :@!",TayTuyFree})
+		--tinsert(tbOption, {"§æi Tªn Nh©n VËt",maindoiten})
+		--tinsert(tbOption, {"ChuyÓn §æi M«n Ph¸i", chuyenmonphai})
+		--tinsert(tbOption, {"Mua Danh HiÖu", muavsmoi})
 		tinsert(tbOption, {"Ta Muèn Thay §æi Tr¹ng Th¸i", changeCamp})
 		--tinsert(tbOption, {"Häc Toµn Bé Kü N¨ng M«n Ph¸i", HoTroKyNang})
-		tinsert(tbOption, {"NhËn Vßng S¸ng Hç Trî T©n Thñ", mainvongsang})
-		tinsert(tbOption, {"KiÓm Tra Nh©n VËt(Ng­êi Ch¬i Kh¸c)", KiemTraTTNV})
-		tinsert(tbOption, {"NhËp M· GIFTCODE NhËn Th­ëng",codehieu})
+		--tinsert(tbOption, {"NhËn Vßng S¸ng Hç Trî T©n Thñ", mainvongsang})
+		--tinsert(tbOption, {"KiÓm Tra Nh©n VËt(Ng­êi Ch¬i Kh¸c)", KiemTraTTNV})
+		--tinsert(tbOption, {"NhËp M· GIFTCODE NhËn Th­ëng",codehieu})
 		tinsert(tbOption, {"Hñy VËt PhÈm", Disposeitem})
 		tinsert(tbOption, {"Fix lag thÇn hµnh phï", fixphu})
-		tinsert(tbOption, {"NhËn Tµi Lanh §¹o", tailanhdao})
+		--tinsert(tbOption, {"NhËn Tµi Lanh §¹o", tailanhdao})
 		tinsert(tbOption, {"§ãng.", onCancel})
 	CreateNewSayEx(szTitlez, tbOption)
 	return 1

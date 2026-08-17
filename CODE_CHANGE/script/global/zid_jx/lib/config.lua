@@ -1,6 +1,6 @@
 /*[[		Th«ng Tin Server		]]*/
 
-Server_Name = "vl-ctc";
+Server_Name = "VoLam1";
 -- Tªn M¸y Chñ
 Server_Open_Time = "190030082021";
 -- Thêi Gian Open ChÝnh Thøc
@@ -9,7 +9,7 @@ Server_Open_Test = 0;
 
 FootNewbie_Support = 0;
 -- Vßng S¸ng T©n Thñ : 1 : Më -> 0 : §ãng
-FootNewbie_LimitLevel_Max = 200;
+FootNewbie_LimitLevel_Max = 20;
 -- Vßng S¸ng T©n Thñ Hç Trî §Õn CÊp
 
 
@@ -18,7 +18,7 @@ FootNewbie_LimitLevel_Max = 200;
 Seasonnpc = 1;
 -- D· TÈu
 -- /script/global/seasonnpc.lua
-Seasonnpc_Lv = 50
+Seasonnpc_Lv = 10
 -- Â§¼ng CÊp Yªu CÇu §Ó Lµm D· TÈu
 ----------------------------------------
 Challengeoftime = 1;
@@ -102,11 +102,11 @@ HeroesOfWar = 1;
 -- Lo¹n ChiÕn Anh Hïng
 -- /script/global/zid_jx/tinhnang/loanchienanhhung/dialog.lua
 ----------------------------------------
-ScratchCards = 1;
+ScratchCards = 0;
 -- Â§¸nh Bµi cµo
 -- /script/global/zid_jx/tinhnang/baicao/main.lua
 ----------------------------------------
-RockPaperScissors_Quest = 1;
+RockPaperScissors_Quest = 0;
 -- O¼n Tï T×
 -- /script/global/zid_jx/tinhnang/oantuty/main.lua
 ----------------------------------------

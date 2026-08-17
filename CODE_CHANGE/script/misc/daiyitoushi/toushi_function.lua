@@ -37,10 +37,15 @@ dofile("script/misc/daiyitoushi/toushi_function.lua")
 	CreateNewSayEx("<bclr=violet>Xin Chµo C¸c H¹ T×m Ta Cã ViÖc G×<bclr>", tbOpt)
 end
 function ChonMonPhai()
+if GetLevel() < 10 then
+	Talk(1,"",""..myplayersex().."C¸c h¹ kh«ng ®ñ cÊp, h·y luyÖn tËp thªm")
+	return 1
+end
+end
 if CalcFreeItemCellCount() < 10 then
 	Talk(1,"",""..myplayersex().."Vui Lßng Chõa 10 Chç Trèng")
 	return 1
- end
+end
 Say(""..myplayersex().." H·y Lùa Chän M«n Ph¸i Muèn Gia NhËp",
 11,
 	"ThiÕu L©m/ThieuLam",

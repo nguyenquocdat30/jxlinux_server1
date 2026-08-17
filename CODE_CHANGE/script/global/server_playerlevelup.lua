@@ -85,7 +85,8 @@ function levelup_check150skillmission()
 end
 
 function main()
-	FootNewbie:IsActivity()
+	-- Tat vong sang tan thu
+	--FootNewbie:IsActivity()
 	local Uworld1001 = nt_getTask(1001)
 	local Uworld1002 = nt_getTask(1002)
 	local Uworld1003 = nt_getTask(1003)
