@@ -1086,7 +1086,6 @@ function tbZidJx:SearchPlayerOnline(szPlayer)
 		["tianren"] 		= "Thiªn NhÉn gi¸o",
 		["wudang"] 		= "Vâ §ang ph¸i",
 		["kunlun"] 		= "C«n L«n ph¸i",
-		["huashan"] 	= "Hoa S¬n ph¸i",
 	}
 	
 	PlayerIndex = nPlayerIndex;

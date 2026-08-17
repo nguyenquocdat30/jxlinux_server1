@@ -40,14 +40,7 @@ function skills_update()
 		update_wd()
 	elseif (Player_Faction == 9) then		-- 昆仑
 		update_kl()
-	elseif (Player_Faction == 3481) then		-- 昆仑
-		update_hs()
-	elseif (Player_Faction == 4406) then		-- 昆仑
-		update_wh()
-	elseif (Player_Faction == 4464) then		-- 昆仑
-		update_xy()
-		
-	else									-- 白名
+else									-- 白名
 		SetTask(137,20)
 		return 1
 	end
@@ -113,18 +106,6 @@ function check_faction()
 		SetTask(137,5)
 		SetLastFactionNumber(8)
 		return 5
-	elseif (GetTask(3481) >= 10*256) and (GetTask(3481) ~= 75*256) then		-- 武当或此门派出师
-		SetTask(137,3481)
-		SetLastFactionNumber(10)
-		return 3481
-	elseif (GetTask(4406) >= 10*256) and (GetTask(4406) ~= 75*256) then		-- 武当或此门派出师
-		SetTask(137,4406)
-		SetLastFactionNumber(11)
-		return 4406
-	elseif (GetTask(4464) >= 10*256) and (GetTask(4464) ~= 75*256) then		-- 武当或此门派出师
-		SetTask(137,4464)
-		SetLastFactionNumber(12)
-		return 4464
 	else																					-- 白名的，不需要更新
 		SetLastFactionNumber(-1)
 		return 20
@@ -383,78 +364,6 @@ function update_kl()			-- 刷新技能
 	del_all_skill()
 	add_kl(the_lvl)			-- 加回应学会的技能
 	SetTask(137,29)
-end
-
-function update_hs()			-- 刷新技能
-	UTask = GetTask(3481)
-	if (GetTask(3486) == 255) then		-- 学会了90级技能
-		the_lvl = 90
-	elseif (HaveMagic(1360) >= 0) then		-- 有镇派绝学技能
-		the_lvl = 70
-	elseif (UTask >= 60*256) then		-- 已完成50级任务
-		the_lvl = 60
-	elseif (UTask >= 50*256) then		-- 已完成40级任务
-		the_lvl = 50
-	elseif (UTask >= 40*256) then		-- 已完成30级任务
-		the_lvl = 40
-	elseif (UTask >= 30*256) then		-- 已完成20级任务
-		the_lvl = 30
-	elseif (UTask >= 20*256) then		-- 已完成10级任务
-		the_lvl = 20
-	elseif (UTask >= 10*256) then		-- 已入门
-		the_lvl = 10
-	end
-	del_all_skill()
-	add_hs(the_lvl)			-- 加回应学会的技能
-	SetTask(137,30)
-end
-
-function update_wh()			-- 刷新技能
-	UTask = GetTask(4406)
-	if (GetTask(4407) == 255) then		-- 学会了90级技能
-		the_lvl = 90
-	elseif (HaveMagic(1971) >= 0) then		-- 有镇派绝学技能
-		the_lvl = 70
-	elseif (UTask >= 60*256) then		-- 已完成50级任务
-		the_lvl = 60
-	elseif (UTask >= 50*256) then		-- 已完成40级任务
-		the_lvl = 50
-	elseif (UTask >= 40*256) then		-- 已完成30级任务
-		the_lvl = 40
-	elseif (UTask >= 30*256) then		-- 已完成20级任务
-		the_lvl = 30
-	elseif (UTask >= 20*256) then		-- 已完成10级任务
-		the_lvl = 20
-	elseif (UTask >= 10*256) then		-- 已入门
-		the_lvl = 10
-	end
-	del_all_skill()
-	add_wh(the_lvl)			-- 加回应学会的技能
-	SetTask(137,31)
-end
-
-function update_xy()			-- 刷新技能
-	UTask = GetTask(4464)
-	if (GetTask(4465) == 255) then		-- 学会了90级技能
-		the_lvl = 90
-	elseif (HaveMagic(1890) >= 0) then		-- 有镇派绝学技能
-		the_lvl = 70
-	elseif (UTask >= 60*256) then		-- 已完成50级任务
-		the_lvl = 60
-	elseif (UTask >= 50*256) then		-- 已完成40级任务
-		the_lvl = 50
-	elseif (UTask >= 40*256) then		-- 已完成30级任务
-		the_lvl = 40
-	elseif (UTask >= 30*256) then		-- 已完成20级任务
-		the_lvl = 30
-	elseif (UTask >= 20*256) then		-- 已完成10级任务
-		the_lvl = 20
-	elseif (UTask >= 10*256) then		-- 已入门
-		the_lvl = 10
-	end
-	del_all_skill()
-	add_wh(the_lvl)			-- 加回应学会的技能
-	SetTask(137,32)
 end
 
 function add_tw(lvl)			-- 根据任务等级加相应的天王技能
@@ -1147,198 +1056,6 @@ function add_kl(lvl)			-- 根据任务等级加相应的昆仑技能
 	end
 end
 
-function add_hs(lvl)			-- 根据任务等级加相应的华山技能
-	--AddMagic(210,1)
-	if (lvl >= 10) then			-- 已经入门（加入门技能）
-		if (HaveMagic(1347) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1347)		--白虹贯日（入门）
-		end
-		if (HaveMagic(1372) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1372)		--清风送爽（入门）
-		end
-	end
-	if (lvl >= 20) then		-- 10级任务（加10级技能）
-		if (HaveMagic(1349) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1349)		--剑宗总决（10级）
-		end
-		if (HaveMagic(1374) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1374)		--龙扰身（10级）
-		end
-	end
-	if (lvl >= 30) then		-- 20级任务（加20级技能）
-		if (HaveMagic(1350) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1350)		--养吾剑法（20级）
-		end
-		if (HaveMagic(1375) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1375)		--海纳百川（20级）
-		end
-	end
-	if (lvl >= 40) then		-- 30级任务（加30级技能）
-		if (HaveMagic(1351) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1351)		--金雁横空（30级）
-		end
-		if (HaveMagic(1376) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1376)		--龙旋剑气（30级）
-		end
-	end
-	if (lvl >= 50) then		-- 40级任务（加40级技能）
-		if (HaveMagic(1354) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1354)		--希夷剑法（40级）
-		end
-		if (HaveMagic(1378) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1378)		--气震山河（40级）
-		end
-	end
-	if (lvl >= 60) then		-- 50级任务（加50级技能）
-		if (HaveMagic(1355) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1355)		--天绅倒悬（50级）
-		end
-		if (HaveMagic(1379) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1379)		--气贯长虹（50级）
-		end
-	end
-	if (lvl >= 70) then		-- 回师任务（加镇派绝学）
-		if (HaveMagic(1358) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1358)		--幻眼云湮（60级）
-		end
-		if (HaveMagic(1360) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1360)		--苍松迎客（60级）
-		end
-		if (HaveMagic(1380) == -1) then
-			AddMagic(1380);		--摩云剑气（60级）
-		end
-	end
-	if (lvl >= 90) then		
-		if (HaveMagic(1364) <= 0) then AddMagic(1364,20) end		--傲雪啸风[372]（90级）
-		if (HaveMagic(1382) <= 0) then AddMagic(1382,20) end		--雷动九天[375]（90级）
-		if (HaveMagic(1365) <= 0) then AddMagic(1365,20) end		--门派120技能
-	end
-end
-
-function add_wh(lvl)			-- 根据任务等级加相应的华山技能
-	--AddMagic(210,1)
-	if (lvl >= 10) then			-- 已经入门（加入门技能）
-		if (HaveMagic(1972) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1972)		--白虹贯日（入门）
-		end
-		if (HaveMagic(1974) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1974)		--清风送爽（入门）
-		end
-	end
-	if (lvl >= 20) then		-- 10级任务（加10级技能）
-		if (HaveMagic(1964) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1964)		--剑宗总决（10级）
-		end
-		if (HaveMagic(1975) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1975)		--龙扰身（10级）
-		end
-	end
-	if (lvl >= 30) then		-- 20级任务（加20级技能）
-		if (HaveMagic(1976) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1976)		--养吾剑法（20级）
-		end
-	end
-	if (lvl >= 40) then		-- 30级任务（加30级技能）
-		if (HaveMagic(1965) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1965)		--金雁横空（30级）
-		end
-		if (HaveMagic(1977) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1977)		--龙旋剑气（30级）
-		end
-	end
-	if (lvl >= 50) then		-- 40级任务（加40级技能）
-		if (HaveMagic(1963) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1963)		--希夷剑法（40级）
-		end
-		if (HaveMagic(1979) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1979)		--气震山河（40级）
-		end
-	end
-	if (lvl >= 60) then		-- 50级任务（加50级技能）
-		if (HaveMagic(1980) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1980)		--天绅倒悬（50级）
-		end
-	end
-	if (lvl >= 70) then		-- 回师任务（加镇派绝学）
-		if (HaveMagic(1982) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1982)		--幻眼云湮（60级）
-		end
-		if (HaveMagic(1971) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1971)		--苍松迎客（60级）
-		end
-		if (HaveMagic(1981) == -1) then
-			AddMagic(1981);		--摩云剑气（60级）
-		end
-	end
-	if (lvl >= 90) then		
-		if (HaveMagic(1967) <= 0) then AddMagic(1967,20) end		--傲雪啸风[372]（90级）
-		if (HaveMagic(1983) <= 0) then AddMagic(1983,20) end		--雷动九天[375]（90级）
-		if (HaveMagic(1984) <= 0) then AddMagic(1984,20) end		--门派120技能
-	end
-end
-
-function add_xy(lvl)			-- 根据任务等级加相应的华山技能
-	--AddMagic(210,1)
-	if (lvl >= 10) then			
-		if (HaveMagic(1904) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1904)		--白虹贯日（入门）
-		end
-              
-		if (HaveMagic(1881) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1881)		--白虹贯日（入门）
-		end
-		if (HaveMagic(1905) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1905)		--清风送爽（入门）
-		end
-	end
-	if (lvl >= 20) then		-- 10级任务（加10级技能）
-		if (HaveMagic(1882) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1882)		--剑宗总决（10级）
-		end
-		if (HaveMagic(1906) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1906)		--龙扰身（10级）
-		end
-	end
-	if (lvl >= 30) then		-- 20级任务（加20级技能）
-		if (HaveMagic(1883) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1883)		--养吾剑法（20级）
-		end
-	end
-	if (lvl >= 40) then		-- 30级任务（加30级技能）
-		if (HaveMagic(1885) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1885)		--金雁横空（30级）
-		end
-		if (HaveMagic(1907) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1907)		--龙旋剑气（30级）
-		end
-	end
-	if (lvl >= 50) then		-- 40级任务（加40级技能）
-		if (HaveMagic(1887) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1887)		--希夷剑法（40级）
-		end
-		if (HaveMagic(1909) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1909)		--气震山河（40级）
-		end
-	end
-	if (lvl >= 60) then		-- 50级任务（加50级技能）
-		if (HaveMagic(1888) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1888)		--天绅倒悬（50级）
-		end
-	end
-	if (lvl >= 70) then		-- 回师任务（加镇派绝学）
-		if (HaveMagic(1890) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1890)		--幻眼云湮（60级）
-		end
-		if (HaveMagic(1889) == -1) then		-- 必须没有技能的才给技能
-			AddMagic(1889)		--苍松迎客（60级）
-		end
-	end
-	if (lvl >= 90) then		
-		if (HaveMagic(1891) <= 0) then AddMagic(1891,20) end		--傲雪啸风[372]（90级）
-		if (HaveMagic(1910) <= 0) then AddMagic(1910,20) end		--雷动九天[375]（90级）
-		if (HaveMagic(1894) <= 0) then AddMagic(1894,20) end		--门派120技能
-	end
-end
 function del_all_skill()
 i = HaveMagic(210)
 j = HaveMagic(400)
@@ -1809,36 +1526,6 @@ tbAllSkill = {
 		[6] = {90,176},
 		[7] = {182,275,630},
 		[9] = {372,375,394,717},
-	},
-	huashan = {
-            [10] = {1347, 1372,},
-            [20] = {1349,1374},
-            [30] = {1350,1375},
-            [40] = {1351,1376},
-            [50] = {1354,1378},
-            [60] = {1355,1379},
-            [70] = {1358,1360,1380},
-            [90] =  {1364,1382},
-	},
-	wuhun = {
-            [10] = {1972,1974},
-            [20] = {1964,1975},
-            [30] = {1976},
-            [40] = {1965,1977},
-            [50] = {1963,1979},
-            [60] = {1980},
-            [70] = {1982,1971,1981},
-            [90] = {1967,1983},
-	},
-	xiaoyao = {
-            [10] = {1881,1905},
-            [20] = {1882,1906},
-            [30] = {1883},
-            [40] = {1885,1907},
-            [50] = {1887,1909},
-            [60] = {1888},
-            [70] = {1890,1889},
-            [90] = {1891,1910},
 	},
 }
 function HoTroSkill()

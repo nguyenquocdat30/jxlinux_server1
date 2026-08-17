@@ -46,6 +46,5 @@ tbWorldRank = {
     [8] = "tianren",
     [9] = "wudang",
     [10] = "kunlun",
-    [11] = "huashan",
   }
 }
