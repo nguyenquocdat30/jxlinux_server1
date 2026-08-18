@@ -163,7 +163,7 @@ end;
 tab_lv80map = {
 		{224,1622,3118	,"Sa M¹c ®Þa biÓu",},
 		{198,1521,2947	,"Thanh Khª §éng",},
-		{320,1147,3123	,"Ch©n nói Tr­êng B¹ch",},
+		{320,1147,3123	,"Ch©n Nói Tr­êng B¹ch",},
 		{181,1425,2999	,"L­ìng Thñy §éng",},
 		{201,1616,3195	,"B¨ng Hµ §éng",},
 	}
@@ -197,7 +197,7 @@ end
 tab_lv70map = {
 		{319,1630,3587	,"L©m Du Quan",},
 		{123,1702,3350	,"L·o Hæ §éng",},
-		{206,1603,3215	,"TÇn L¨ng tÇng 2",},
+		{206,1603,3215	,"TÇn L¨ng TÇng 2",},
 		
 	}
 
@@ -345,7 +345,7 @@ end
 ---------------------map luyen cong 20----------------------------
 tab_lv20map = {
 		{19,3102,3963	,"KiÕm C¸c T©y Nam",},
-		{7,2276,2825	,"TÇn L¨ng tÇng 1",},
+		{7,2276,2825	,"TÇn L¨ng TÇng 1",},
 
 	}
 
@@ -479,12 +479,12 @@ function gototown()
 		"Thµnh thÞ /gopos_step2town",
 		"Th«n trang/#gopos_step2(8)",
 		"M«n ph¸i/#gopos_step2(9)",
+		"B¶n ®å luyÖn c«ng t©n thñ 2x ®Õn 8x/#luyencongtanthu()",
 		"B¶n ®å cÊp 90/#gopos_step2lv90()",
-		"ChiÕn tr­êng Tèng Kim Bang Héi/gopos_tong_war",
-		"T×m Boss/timbosshk",
-		"ChiÕn tr­êng tèng Tèng Kim/gopos_step2battle",
-		"ChiÕn tr­êng ThÊt Thµnh §¹i ChiÕn/gopos_sevencityfield",
-		"B¶n ®å luyÖn c«ng t©n thñ 2x ®Õn 8x/#luyencongtanthu()"
+		"T×m Boss/timbosshk"
+--		"ChiÕn tr­êng Tèng Kim Bang Héi/gopos_tong_war",
+--		"ChiÕn tr­êng tèng Tèng Kim/gopos_step2battle",
+--		"ChiÕn tr­êng ThÊt Thµnh §¹i ChiÕn/gopos_sevencityfield"
 	}
 	Say("ThÇn hµnh phï, ®i ®Õn n¬i ng­¬i muèn.", getn(tab_Content), tab_Content);
 end;
