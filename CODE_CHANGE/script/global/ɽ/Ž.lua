@@ -86,7 +86,6 @@ function go()
 --	nt_setTask(2,80*256)
 --	SetRank(76)
 --	Msg2Player("»¶Ó­Äã¼ÓÈëÌÆÃÅ£¬²âÊÔÖĞÖ±½ÓÑ§»á±¾ÃÅËùÓĞ¼¼ÄÜ¡£")
-	add_tm(120)			-- µ÷ÓÃskills_table.luaÖĞµÄº¯Êı£¬²ÎÊıÎªÑ§µ½¶àÉÙ¼¶¼¼ÄÜ¡£
 -- ½áÊø
 	Msg2Player("Hoan nghªnh b¹n gia nhËp §­êng m«, trë thµnh T¹p dŞch! Häc ®­îc vâ c«ng Tİch LŞch §¬n")
 	AddNote("Gia nhËp §­êng M«n, trë thµnh T¹p dŞch.")

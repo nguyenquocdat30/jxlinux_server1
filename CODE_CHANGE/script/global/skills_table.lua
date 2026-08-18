@@ -40,7 +40,7 @@ function skills_update()
 		update_wd()
 	elseif (Player_Faction == 9) then		-- À¥ÂØ
 		update_kl()
-else									-- °×Ãû
+	else									-- °×Ãû
 		SetTask(137,20)
 		return 1
 	end

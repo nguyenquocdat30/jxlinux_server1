@@ -90,7 +90,6 @@ function yes()
 --	nt_setTask(4,80*256)
 --	SetRank(81)
 --	Msg2Player("欢迎你加入天忍教，测试中直接学会本门所有技能。")
-	add_tr(120)			-- 调用skills_table.lua中的函数，参数为学到多少级技能。
 -- 结束
 	--NewWorld(49, 1644, 3215)					--把玩家传送到门派入口
 

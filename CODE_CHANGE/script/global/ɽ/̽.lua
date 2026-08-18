@@ -94,7 +94,6 @@ function go()
 --	nt_setTask(6,80*256)
 --	SetRank(67)
 --	Msg2Player("»¶Ó­Äã¼ÓÈë´äÑÌÃÅ£¬²âÊÔÖĞÖ±½ÓÑ§»á±¾ÃÅËùÓĞ¼¼ÄÜ¡£")
-	add_cy(120)			-- µ÷ÓÃskills_table.luaÖĞµÄº¯Êı£¬²ÎÊıÎªÑ§µ½¶àÉÙ¼¶¼¼ÄÜ¡£
 -- ½áÊø
 	Msg2Player("Hoan nghªnh b¹n gia nhËp Thóy Yªn m«n! Trë thµnh Hoa Tú. Häc®­îc Phong Hoa TuyÕt NguyÖt, Phong QuyÓn Tµn TuyÕt")
 	AddNote("gia nhËp Thóy Yªn m«n, trë thµnh Hoa Tú ")
