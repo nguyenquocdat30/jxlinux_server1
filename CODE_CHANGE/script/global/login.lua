@@ -94,7 +94,10 @@ function main(bExchangeIn)
 		ST_LevelUp(nAddLevel)
 		tbAwardTemplet:GiveAwardByList(thuongcodinh, "PHANTHUONGtanthu");
 		SetTask(5550,GetTask(5550)+1)
-		Earn(10000)
+		-- Add 5000 luong
+		Earn(5000)
+		-- Add 10 tien dong
+		AddStackItem(10, 4, 417, 1, 1, 0, 0, 0)
 	end
 
 --end
