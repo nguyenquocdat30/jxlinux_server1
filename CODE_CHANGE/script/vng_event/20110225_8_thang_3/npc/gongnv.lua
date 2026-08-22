@@ -109,8 +109,8 @@ function tbVNGWD2011_GongNV:ExtraGiftAward(nRank)
 		tbTaskInfo = tbVNG_WomenDay2011.tbTaskList.TSK200GIFT_FLAG
 		tbAward = 
 			{
-				{szName="Ngò Hµnh Ên (C­êng hãa)",tbProp={0,3209},nCount=1,nQuality = 1,nExpiredTime = 43200},
-				{szName="Ngò Hµnh Ên (Nh­îc hãa)",tbProp={0,3219},nCount=1,nQuality = 1,nExpiredTime = 43200},
+				{szName="Ngò Hµnh Ên (C­êng hãa)",tbProp={0,3209},nCount=1,nQuality = 1,nExpiredTime = 10080},
+				{szName="Ngò Hµnh Ên (Nh­îc hãa)",tbProp={0,3219},nCount=1,nQuality = 1,nExpiredTime = 10080},
 			}
 	end
 	tbVNG_BitTask_Lib:setBitTask(tbTaskInfo, 1)

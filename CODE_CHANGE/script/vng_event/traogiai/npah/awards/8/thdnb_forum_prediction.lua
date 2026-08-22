@@ -45,9 +45,9 @@ tbCurSeason.tbAccList = {
 tbCurSeason.tbPrizeList = {	
 	[1] = {szName="§å Phæ Kim ¤ KhÝ Giíi",tbProp={6,1,2991,1,0,0},nCount=1},
 	[2] = {szName="§å Phæ Kim ¤ Th­îng Giíi",tbProp={6,1,2989,1,0,0},nCount=1},	
-	[3] = {szName="Phiªn Vò (HSD 6 th¸ng)",tbProp={0,10,7,1,0,0},nCount=1,nExpiredTime = 259200},	
+	[3] = {szName="Phiªn Vò (HSD 6 th¸ng)",tbProp={0,10,7,1,0,0},nCount=1,nExpiredTime = 10080},	
 	[4] = {szName="Cµn Kh«n Song TuyÖt Béi",tbProp={6,1,2219,1,0,0},nCount=1,nExpiredTime=43200},
-	[5] = {szName="MÆt n¹ V­¬ng Gi¶",tbProp={0,11,561,1,0,0},nCount=1,nExpiredTime=43200},	
+	[5] = {szName="MÆt n¹ V­¬ng Gi¶",tbProp={0,11,561,1,0,0},nCount=1,nExpiredTime=10080},	
 	[6] = 	{szName="Hång bao An khang",tbProp={6,1,2105,1,0,0},nCount=1},
 	[7] = {szName="Hång bao Sum vÇy",tbProp={6,1,2104,1,0,0},nCount=1},	
 	[8] = {szName="Hoµng Ch©n §¬n",tbProp={6,1,2264,1,0,0},nCount=1},

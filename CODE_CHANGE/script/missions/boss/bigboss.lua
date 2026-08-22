@@ -85,8 +85,8 @@ BigBoss.tbVngNewDropItem = {
 		[21]={{szName="ThiÕt La H¸n",tbProp={6,1,23,1,0,0},nCount=2,nRate=80},},
 		[22]={{szName="Tiªn Th¶o Lé ®Æc biÖt",tbProp={6,1,1181,1,0,0},nCount=1,nRate=30},},
 		[23]={{szName="Hçn Nguyªn Linh Lé",tbProp={6,1,2312,1,0,0},nCount=1,nRate=25},},
-		[24]={{szName="Hoµng Kim Ên (C­êng hãa)",tbProp={0,3209},nCount=1,nRate=20,nQuality = 1,nExpiredTime=20160,},},
-		[25]={{szName="Hoµng Kim Ên (Nh­îc hãa)",tbProp={0,3219},nCount=1,nRate=20,nQuality = 1,nExpiredTime=20160,},},
+		[24]={{szName="Hoµng Kim Ên (C­êng hãa)",tbProp={0,3209},nCount=1,nRate=20,nQuality = 1,nExpiredTime=10080,},},
+		[25]={{szName="Hoµng Kim Ên (Nh­îc hãa)",tbProp={0,3219},nCount=1,nRate=20,nQuality = 1,nExpiredTime=10080,},},
 	},
 	[2] = {
 		{szName="§å Phæ Tö M·ng Kh«i",tbProp={6,1,2714,1,0,0},nCount=1,nRate=12},

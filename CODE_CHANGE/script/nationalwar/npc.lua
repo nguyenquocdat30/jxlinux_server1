@@ -224,7 +224,7 @@ function nw_accept_empirering()
 			return
 		end
 		WriteLog(format("[NW]Give king-ring[AddItem(0,10,7,1,0,0)] to %s", GetName()))
-		ITEM_SetExpiredTime(itemHorse, nExpiredDate, 120000)
+		ITEM_SetExpiredTime(itemHorse, 10080)
 		SyncItem(itemHorse)
 		
 		-- 已经成功领取到部分物品

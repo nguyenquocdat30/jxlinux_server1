@@ -23,7 +23,7 @@ tbItem =
 	{szName = "Long HuyÕt Hoµn", tbProp={6,1,2117,1,0,0}, nExpiredTime = 43200, nBindState = -2, nCount = 6},
 	{szName = "Thiªn Long LÖnh", tbProp={6,1,2256,1,0,0}, nExpiredTime = 43200, nBindState = -2, nCount = 6},
 	{szName = "H¶i Long Ch©u", tbProp={6,1,2115,1,0,0}, nExpiredTime = 43200, nBindState = -2, nCount = 6},
-	{szName = "MÆt n¹ Nguyªn So¸i", tbProp={0,11,447,1,0,0}, nExpiredTime = 43200, nBindState = -2, nCount = 3},
+	{szName = "MÆt n¹ Nguyªn So¸i", tbProp={0,11,447,1,0,0}, nExpiredTime = 10080, nBindState = -2, nCount = 3},
 	{szName = "HuyÕt ChiÕn LÖnh Kú", tbProp={6,1,2212,1,0,0}, nExpiredTime = 43200, nBindState = -2, nCount = 3},
 }
 

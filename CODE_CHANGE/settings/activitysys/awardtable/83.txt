@@ -5,7 +5,7 @@ TableId	AwardName	LuaBuff	Count	Rate	AwardId	ActivityId	News
 83	Huy“n Vi™n L÷nh	{tbProp={6,1,2351,1,0,0},}	1	10	783	20	
 83	Th≠¨ng Lang L÷nh	{tbProp={6,1,2352,1,0,0},}	1	8	784	20	
 83	Bπch C©u Hoµn Æ∆c bi÷t	{tbProp={6,1,1157,1,0,0},}	1	40	786	20	
-83	Kim Tinh HÊ V≠¨ng	{tbProp={0,10,14,1,5,0},nExpiredTime=43200,}	1	2	788	20	
+83	Kim Tinh HÊ V≠¨ng	{tbProp={0,10,14,1,5,0},nExpiredTime=10080,}	1	2	788	20	
 83	Tµi B∂o ThÒy T∆c	{tbProp={6,1,2376,1,0,0},}	5	2	789	20	
 83	B∂o r≠¨ng th«n b› cÒa D∑ T»u	{tbProp={6,1,2374,1,0,0},}	5	1	790	20	
 83	Th› Luy÷n Thi’p	{tbProp={6,1,2317,1,0,0},}	5	2	791	20	

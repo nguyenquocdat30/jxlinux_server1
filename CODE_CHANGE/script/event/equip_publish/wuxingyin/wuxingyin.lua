@@ -64,16 +64,16 @@ local tbFormulaList = {
 	tbMaterial = {},
 	
 	tbProduct = {
-		[1]={szName="Hoµng kim  n ( c≠Íng h„a c p 2)",tbProp={0,3206,},nQuality=1,nExpiredTime=7*24*60,},		-- level 2
-		[2]={szName="Hoµng kim  n ( c≠Íng h„a c p 3)",tbProp={0,3207,},nQuality=1,nExpiredTime=7*24*60,},
-		[3]={szName="Hoµng kim  n ( c≠Íng h„a c p 4)",tbProp={0,3208,},nQuality=1,nExpiredTime=7*24*60,},
-		[4]={szName="Hoµng kim  n ( c≠Íng h„a c p 5)",tbProp={0,3209,},nQuality=1,nExpiredTime=7*24*60,},
-		[5]={szName="Hoµng kim  n ( c≠Íng h„a c p 6 )",tbProp={0,3210,},nQuality=1,nExpiredTime=30*24*60,},
-		[6]={szName="Hoµng kim  n ( nh≠Óc h„a c p 2)",tbProp={0,3216,},nQuality=1,nExpiredTime=7*24*60,},		-- level 2
-		[7]={szName="Hoµng kim  n ( nh≠Óc h„a c p 3)",tbProp={0,3217,},nQuality=1,nExpiredTime=7*24*60,},
-		[8]={szName="Hoµng kim  n ( nh≠Óc h„a c p 4)",tbProp={0,3218,},nQuality=1,nExpiredTime=7*24*60,},
-		[9]={szName="Hoµng kim  n ( nh≠Óc h„a c p 5)",tbProp={0,3219,},nQuality=1,nExpiredTime=7*24*60,},
-		[10]={szName="Hoµng kim  n ( nh≠Óc h„a c p 6 )",tbProp={0,3220,},nQuality=1,nExpiredTime=30*24*60,},
+		[1]={szName="Hoµng kim  n ( c≠Íng h„a c p 2)",tbProp={0,3206,},nQuality=1,nExpiredTime=10080,},		-- level 2
+		[2]={szName="Hoµng kim  n ( c≠Íng h„a c p 3)",tbProp={0,3207,},nQuality=1,nExpiredTime=10080,},
+		[3]={szName="Hoµng kim  n ( c≠Íng h„a c p 4)",tbProp={0,3208,},nQuality=1,nExpiredTime=10080,},
+		[4]={szName="Hoµng kim  n ( c≠Íng h„a c p 5)",tbProp={0,3209,},nQuality=1,nExpiredTime=10080,},
+		[5]={szName="Hoµng kim  n ( c≠Íng h„a c p 6 )",tbProp={0,3210,},nQuality=1,nExpiredTime=10080,},
+		[6]={szName="Hoµng kim  n ( nh≠Óc h„a c p 2)",tbProp={0,3216,},nQuality=1,nExpiredTime=10080,},		-- level 2
+		[7]={szName="Hoµng kim  n ( nh≠Óc h„a c p 3)",tbProp={0,3217,},nQuality=1,nExpiredTime=10080,},
+		[8]={szName="Hoµng kim  n ( nh≠Óc h„a c p 4)",tbProp={0,3218,},nQuality=1,nExpiredTime=10080,},
+		[9]={szName="Hoµng kim  n ( nh≠Óc h„a c p 5)",tbProp={0,3219,},nQuality=1,nExpiredTime=10080,},
+		[10]={szName="Hoµng kim  n ( nh≠Óc h„a c p 6 )",tbProp={0,3220,},nQuality=1,nExpiredTime=10080,},
 		}
 	}
 	

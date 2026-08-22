@@ -355,7 +355,7 @@ tbConfig[20] = --一个细节
 	},
 	tbActition = 
 	{
-		{"PlayerFunLib:GetItem",	{{tbProp={0,214},nQuality=1,nExpiredTime=86400,},1,"[WC 2010]Gh衟 th祅h Vinh Di謚 Chi Y"} },
+		{"PlayerFunLib:GetItem",	{{tbProp={0,214},nQuality=1,nExpiredTime=10080,},1,"[WC 2010]Gh衟 th祅h Vinh Di謚 Chi Y"} },
 	},
 }
 tbConfig[21] = --一个细节
@@ -372,7 +372,7 @@ tbConfig[21] = --一个细节
 	},
 	tbActition = 
 	{
-		{"PlayerFunLib:GetItem",	{{tbProp={0,215},nQuality=1,nExpiredTime=86400,},1,"[WC 2010]Gh衟 th祅h Tinh Chu萵 Chi Ngoa"} },
+		{"PlayerFunLib:GetItem",	{{tbProp={0,215},nQuality=1,nExpiredTime=10080,},1,"[WC 2010]Gh衟 th祅h Tinh Chu萵 Chi Ngoa"} },
 	},
 }
 tbConfig[22] = --一个细节

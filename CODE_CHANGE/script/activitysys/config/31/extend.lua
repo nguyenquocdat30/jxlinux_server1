@@ -182,7 +182,7 @@ function pActivity:GetFanYu()
 	local nDate = tonumber(GetLocalDate("%Y12%d"))
 	print(nDate)
 	
-	PlayerFunLib:GetItem({tbProp={0,10,7,1,0,0},nExpiredTime=nDate,},1,"SinhNhatVoLamTruyenKy","DoiVatPhamLongThoLayPhienVu")
+	PlayerFunLib:GetItem({tbProp={0,10,7,1,0,0},nExpiredTime=10080,},1,"SinhNhatVoLamTruyenKy","DoiVatPhamLongThoLayPhienVu")
 end
 
 function pActivity:GiveRedBox(nCount, strMaiDian, strActionLog)

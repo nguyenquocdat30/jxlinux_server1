@@ -196,7 +196,7 @@ function GetBonusEndWeek()
 				end
 				-- add 1 mat na nguyen soai
 					local ndx = AddItem(0,11,447,1,0,0)
-					nExpiredTime = OneDayTime * 3
+					nExpiredTime = 10080
 					ITEM_SetExpiredTime(ndx, nExpiredTime);
 					SetItemBindState(ndx, -2);
 					SyncItem(ndx)

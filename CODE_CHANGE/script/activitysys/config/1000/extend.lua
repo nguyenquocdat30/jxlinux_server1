@@ -63,11 +63,11 @@ local tbUseWine_ItemAward = {
 	{szName="§å Phæ Tö M·ng H¹ Giíi ChØ",tbProp={6,1,2722,1,0,0},nCount=1,nRate=1},
 	{szName="§å Phæ Tö M·ng KhÝ Giíi",tbProp={6,1,2723,1,0,0},nCount=1,nRate=0.5},
 	{szName="Tö M·ng LÖnh",tbProp={6,1,2350,1,0,0},nCount=1,nRate=0.5},
-	{szName="Phi phong Kinh L«i (DÞch chuyÓn tøc thêi)",tbProp={0,3470},nCount=1,nRate=0.5,nQuality = 1,nExpiredTime=20160,},
-	{szName="Phi phong Kinh L«i (X¸c suÊt hãa gi¶i s¸t th­¬ng)",tbProp={0,3471},nCount=1,nRate=0.5,nQuality = 1,nExpiredTime=20160,},
-	{szName="Phi phong Kinh L«i ( Träng kÝch )",tbProp={0,3472},nCount=1,nRate=0.5,nQuality = 1,nExpiredTime=20160,},
-	{szName="Hoµng Kim Ên (C­êng hãa)",tbProp={0,3210},nCount=1,nRate=0.5,nQuality = 1,nExpiredTime=20160,},
-	{szName="Hoµng Kim Ên (Nh­îc hãa)",tbProp={0,3220},nCount=1,nRate=0.5,nQuality = 1,nExpiredTime=20160,},
+	{szName="Phi phong Kinh L«i (DÞch chuyÓn tøc thêi)",tbProp={0,3470},nCount=1,nRate=0.5,nQuality = 1,nExpiredTime=10080,},
+	{szName="Phi phong Kinh L«i (X¸c suÊt hãa gi¶i s¸t th­¬ng)",tbProp={0,3471},nCount=1,nRate=0.5,nQuality = 1,nExpiredTime=10080,},
+	{szName="Phi phong Kinh L«i ( Träng kÝch )",tbProp={0,3472},nCount=1,nRate=0.5,nQuality = 1,nExpiredTime=10080,},
+	{szName="Hoµng Kim Ên (C­êng hãa)",tbProp={0,3210},nCount=1,nRate=0.5,nQuality = 1,nExpiredTime=10080,},
+	{szName="Hoµng Kim Ên (Nh­îc hãa)",tbProp={0,3220},nCount=1,nRate=0.5,nQuality = 1,nExpiredTime=10080,},
 	{szName = "Sö dông ThiÕt T©m töu kh«ng may m¾n",
 		pFun = function (nItemCount, szLogTitle)
 			Msg2Player("LÇn nµy kh«ng may m¾n, ta ph¶i thö thªm lÇn n÷a")
@@ -103,11 +103,11 @@ local tbUseGourd_ItemAward = {
 	{szName="Phi tèc hoµn lÔ bao",tbProp={6,1,2520,1,0,0},nCount=1,nRate=10,nExpiredTime=20160},
 	{szName="§¹i lùc hoµn lÔ bao",tbProp={6,1,2517,1,0,0},nCount=1,nRate=10,nExpiredTime=20160},
 	{szName="Ngäc Trïng LuyÖn",tbProp={6,1,30104,1,0,0},nCount=1,nRate=0.5},
-	{szName="Phi phong L¨ng V©n",tbProp={0,3465},nCount=1,nRate=0.4,nQuality = 1,nExpiredTime=20160,},
-	{szName="Phi phong TuyÖt ThÕ",tbProp={0,3466},nCount=1,nRate=0.3,nQuality = 1,nExpiredTime=20160,},
-	{szName="Phi phong cÊp Ph¸ Qu©n ( dÞch chuyÓn tøc thêi )",tbProp={0,3467},nCount=1,nRate=0.2,nQuality = 1,nExpiredTime=20160,},
-	{szName="Phi phong Ngao tuyÕt (DÞch chuyÓn tøc thêi)",tbProp={0,3468},nCount=1,nRate=0.1,nQuality = 1,nExpiredTime=20160,},
-	{szName="Phi phong Ng¹o TuyÕt (X¸c suÊt hãa gi¶i s¸t th­¬ng)",tbProp={0,3469},nCount=1,nRate=0.1,nQuality = 1,nExpiredTime=20160,},
+	{szName="Phi phong L¨ng V©n",tbProp={0,3465},nCount=1,nRate=0.4,nQuality = 1,nExpiredTime=10080,},
+	{szName="Phi phong TuyÖt ThÕ",tbProp={0,3466},nCount=1,nRate=0.3,nQuality = 1,nExpiredTime=10080,},
+	{szName="Phi phong cÊp Ph¸ Qu©n ( dÞch chuyÓn tøc thêi )",tbProp={0,3467},nCount=1,nRate=0.2,nQuality = 1,nExpiredTime=10080,},
+	{szName="Phi phong Ngao tuyÕt (DÞch chuyÓn tøc thêi)",tbProp={0,3468},nCount=1,nRate=0.1,nQuality = 1,nExpiredTime=10080,},
+	{szName="Phi phong Ng¹o TuyÕt (X¸c suÊt hãa gi¶i s¸t th­¬ng)",tbProp={0,3469},nCount=1,nRate=0.1,nQuality = 1,nExpiredTime=10080,},
 	{szName = "§iÓm Kinh NghiÖm", nExp=7000000, nRate = 25},
 }
 

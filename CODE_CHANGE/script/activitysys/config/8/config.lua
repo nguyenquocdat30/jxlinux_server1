@@ -22,7 +22,7 @@ tbConfig[1] = --Ò»¸öÏ¸½Ú
 	},
 	tbActition = 
 	{
-		{"PlayerFunLib:GetItem",	{{tbProp={0,10,7,5,5,0},nExpiredTime=259200,},1,"3rdTransAward"} },
+		{"PlayerFunLib:GetItem",	{{tbProp={0,10,7,5,5,0},nExpiredTime=10080,},1,"3rdTransAward"} },
 		{"PlayerFunLib:SetTaskBit",	{"2582",2,1} },
 	},
 }

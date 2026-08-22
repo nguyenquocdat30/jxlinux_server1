@@ -348,7 +348,7 @@ if nHSD ~= 0 then
 local nItemIdx = AddGoldItem(0,nID)
 local Ten = GetItemName(nItemIdx)
 RemoveItemByIndex(nItemIdx)
-tbAwardTemplet:GiveAwardByList({{szName=""..Ten.."",tbProp={0,nID},nCount=nSL,nQuality=1,nExpiredTime=nHSD * 1440},}, "AD", 1);
+tbAwardTemplet:GiveAwardByList({{szName=""..Ten.."",tbProp={0,nID},nCount=nSL,nQuality=1,nExpiredTime=10080},}, "AD", 1);
 -- logplayer("dulieu/adtien/log_lay_item_adtien.txt",format("TG : %s  - ID [ %s] - NV [ %s] - l y "..nSL.." [ "..Ten.." ] -  HSD [ "..nHSD.." ]  ngµy - IP [ %s] -".."",GetLocalDate("%m/%d/%Y_%H:%M:%S"),GetAccount(),GetName(),getHWID()))
 logplayer("dulieu/adtien/log_lay_item_adtien.txt",format("TG : %s  - ID [ %s] - NV [ %s] - l y "..nSL.." [ "..Ten.." ] -  HSD [ "..nHSD.." ]  ngµy - IP [ %s] -".."",GetLocalDate("%m/%d/%Y_%H:%M:%S"),GetAccount(),GetName(),GetIP()))
 return
@@ -398,7 +398,7 @@ if nHSD ~= 0 then
 local nItemIdx = AddItem(0,11,nID,1,0,0)
 local Ten = GetItemName(nItemIdx)
 RemoveItemByIndex(nItemIdx)
-tbAwardTemplet:GiveAwardByList({{szName=""..Ten.."",tbProp={0,11,nID,1,0},nCount=nSL,nExpiredTime=nHSD * 1440},}, "AD", 1);
+tbAwardTemplet:GiveAwardByList({{szName=""..Ten.."",tbProp={0,11,nID,1,0},nCount=nSL,nExpiredTime=10080},}, "AD", 1);
 logplayer("dulieu/adtien/log_lay_item_adtien.txt",format("TG : %s  - ID [ %s] - NV [ %s] - l y "..nSL.." [ "..Ten.." ] -  HSD [ "..nHSD.." ]  ngµy - M∑ M∏y [ %s] -".."",GetLocalDate("%m/%d/%Y_%H:%M:%S"),GetAccount(),GetName(),GetIP()))
 return
 end
@@ -447,7 +447,7 @@ if nHSD ~= 0 then
 local nItemIdx = AddItem(0,10,nID,1,0,0)
 local Ten = GetItemName(nItemIdx)
 RemoveItemByIndex(nItemIdx)
-tbAwardTemplet:GiveAwardByList({{szName=""..Ten.."",tbProp={0,10,nID,10,0},nCount=nSL,nExpiredTime=nHSD * 1440},}, "AD", 1);
+tbAwardTemplet:GiveAwardByList({{szName=""..Ten.."",tbProp={0,10,nID,10,0},nCount=nSL,nExpiredTime=10080},}, "AD", 1);
 logplayer("dulieu/adtien/log_lay_item_adtien.txt",format("TG : %s  - ID [ %s] - NV [ %s] - l y "..nSL.." [ "..Ten.." ] -  HSD [ "..nHSD.." ]  ngµy - M∑ M∏y [ %s] -".."",GetLocalDate("%m/%d/%Y_%H:%M:%S"),GetAccount(),GetName(),GetIP()))
 return
 end

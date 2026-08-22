@@ -150,7 +150,7 @@ TAB_AWORD_GOOD =
 			{{tbProp={6,1,2270,1},szName="Thiªn Niªn Huy Hoµng qu¶"}, {80, 60, 50, 40, 30, 20, 10}},	--Ç§Äê»Ô»ÍÖ®¹ûµÄ½±ÀøÁÐ±í
 			--VLDNB 11 - Modified By DinhHQ - 20120507
 			{{tbProp={6,1,2357,1},szName="B¹ch Hæ LÖnh"}, {5, 3, 2, 1, 0, 0, 0}},			
-			{{tbProp={0,10,9,1, 5},szName="XÝch Long C©u", nExpiredTime=180 * 60 * 24}, {1, 0, 0, 0, 0, 0, 0}},	--ÐþÔ³ÁîµÄ½±ÀøÁÐ±í
+			{{tbProp={0,10,9,1, 5},szName="XÝch Long C©u", nExpiredTime=10080}, {1, 0, 0, 0, 0, 0, 0}},	--ÐþÔ³ÁîµÄ½±ÀøÁÐ±í
 			
 			
 --		{{6, 1, 1074, TONGTASK_AWORD_SMDHB, "ÉñÃØ´óºì°üÀñºÐ"}, {80, 50, 30, 20, 15, 10, 5}},	--ÉñÃØ´óºì°üµÄ½±ÀøÁÐ±í

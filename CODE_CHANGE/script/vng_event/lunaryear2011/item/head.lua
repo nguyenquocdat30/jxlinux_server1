@@ -224,7 +224,7 @@ function tbVNG_NLY2011_Itemhead:banhchungdacbiet()
 			{szName="Thiªn niªn thÊt tinh th¶o",tbProp={6,1,1675,1,0,0},nCount=1,nRate=0.3},
 			{szName="V¹n Niªn Ngò Th¸i Hoa",tbProp={6,1,2265,1,0,0},nCount=1,nRate=0.2},
 			{szName="B¾c §Èu truyÒn c«ng thuËt",tbProp={6,1,1672,1,0,0},nCount=1,nRate=0.2},
-			{szName="MÆt n¹ Nguyªn so¸i",tbProp={0,11,447,1,0,0},nCount=1,nRate=1,nExpiredTime=43200},
+			{szName="MÆt n¹ Nguyªn so¸i",tbProp={0,11,447,1,0,0},nCount=1,nRate=1,nExpiredTime=10080},
 			{szName="Thiªn S¬n TuyÕt Liªn",tbProp={6,1,1431,1,0,0},nCount=1,nRate=0.2},
 			{szName="Tiªn Th¶o Lé ®Æc biÖt",tbProp={6,1,1181,1,0,0},nCount=1,nRate=4},
 			{szName="§¹i lùc hoµn lÔ bao",tbProp={6,1,2517,1,0,0},nCount=1,nRate=5},

@@ -25,7 +25,7 @@ tbAward_Ext = {
 		{szName="S¸t Thñ Gi¶n lÔ hép",tbProp={6,1,2339,1,0,0},nCount=1,nRate=1,nExpiredTime=43200},
 		{szName="§¹i lùc hoµn lÔ bao",tbProp={6,1,2517,1,0,0},nCount=1,nRate=1,nExpiredTime=43200},
 		{szName="Phi tèc hoµn lÔ bao",tbProp={6,1,2520,1,0,0},nCount=1,nRate=1,nExpiredTime=43200},
-		{szName="MÆt n¹ Nguyªn so¸i",tbProp={0,11,447,1,0,0},nCount=1,nRate=0.2,nExpiredTime=43200},
+		{szName="MÆt n¹ Nguyªn so¸i",tbProp={0,11,447,1,0,0},nCount=1,nRate=0.2,nExpiredTime=10080},
 		{szName="Cöu Ch©u LÖnh",tbProp={6,1,30117,1,0,0},nCount=1,nRate=0.4},
 		{szName="MËt tÞch kÜ n¨ng 150 (CÊp 19)",tbProp={6,1,30170,1,0,0},nCount=1,nRate=0.02},
 		{szName="MËt tÞch kÜ n¨ng 150 (CÊp 20)",tbProp={6,1,30171,1,0,0},nCount=1,nRate=0.02},

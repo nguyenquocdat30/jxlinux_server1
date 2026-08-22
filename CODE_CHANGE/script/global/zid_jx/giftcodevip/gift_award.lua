@@ -10013,11 +10013,11 @@ tbQuaTang.tbAward = {
 			{szName="Tiªn Th¶o Lé",tbProp={6,1,71,1,0,0},nCount=10,nBindState = -2},
 			{szName="Thiªn S¬n B¶o Lé",tbProp={6,1,72,1,0,0},nCount=10,nBindState = -2},
 			{szName="QuÕ Hoa Töu",tbProp={6,1,125,1,0,0},nCount=10,nBindState = -2},
-			{szName="Nguyªn So¸i ChiÕn M·", tbProp={0,5321}, nQuality=1, nCount = 1, nBindState=-2,nExpiredTime=4320},
-			{szName="Nguyªn So¸i Quan Ên", tbProp={0,5291}, nQuality=1, nCount = 1, nBindState=-2,nExpiredTime=4320},
-			{szName="Nguyªn So¸i Trang Søc", tbProp={0,5301}, nQuality=1, nCount = 1, nBindState=-2,nExpiredTime=4320},
-			{szName="Nguyªn So¸i Phi Phong", tbProp={0,5311}, nQuality=1, nCount = 1, nBindState=-2,nExpiredTime=4320},
-			{szName="Nguyªn So¸i MÆt N¹", tbProp={0,5331}, nQuality=1, nCount = 1, nBindState=-2,nExpiredTime=4320},
+			{szName="Nguyªn So¸i ChiÕn M·", tbProp={0,5321}, nQuality=1, nCount = 1, nBindState=-2,nExpiredTime=10080},
+			{szName="Nguyªn So¸i Quan Ên", tbProp={0,5291}, nQuality=1, nCount = 1, nBindState=-2,nExpiredTime=10080},
+			{szName="Nguyªn So¸i Trang Søc", tbProp={0,5301}, nQuality=1, nCount = 1, nBindState=-2,nExpiredTime=10080},
+			{szName="Nguyªn So¸i Phi Phong", tbProp={0,5311}, nQuality=1, nCount = 1, nBindState=-2,nExpiredTime=10080},
+			{szName="Nguyªn So¸i MÆt N¹", tbProp={0,5331}, nQuality=1, nCount = 1, nBindState=-2,nExpiredTime=10080},
 		
 	},
 	[2] = {

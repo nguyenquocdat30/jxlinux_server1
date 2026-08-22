@@ -76,7 +76,7 @@ tbNSKT_ItemCompose.tbCrystalCompose =
 							{
 								{szName = "LÖnh Bµi TriÖu Håi", tbProp = {6,1,30074,1,0,0}, nCount = 60},								
 							},
-						tbProduct = {szName = "Phiªn Vò", tbProp = {0,10,7,1,0,0},nCount=1,nExpiredTime=259200},
+						tbProduct = {szName = "Phiªn Vò", tbProp = {0,10,7,1,0,0},nCount=1,nExpiredTime=10080},
 					},
 					pCompos = nil;
 			},

@@ -203,7 +203,7 @@ function pActivity:GetTopListAward(nRank)
 	%tbTop10:GiveAward(nRank)
 	local tbAward = {
 		[1] = {tbProp={6,1,30180,1,0,0},nCount=1,tbParam={18,0,0,0,0,0}},
-		[2] = {szName="MÆt n¹ - Anh hïng chiÕn tr­êng",tbProp={0,11,482,1,0,0},nCount=1,nExpiredTime=86400,nUsageTime=-1},
+		[2] = {szName="MÆt n¹ - Anh hïng chiÕn tr­êng",tbProp={0,11,482,1,0,0},nCount=1,nExpiredTime=10080,nUsageTime=-1},
 		[3] = {nExp_tl = 2e9},
 	}
 	tbAwardTemplet:Give(tbAward[nRank], 1, {%EVENT_LOG_TITLE, "PhanThuongXepHang"..nRank})

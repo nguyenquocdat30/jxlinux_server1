@@ -27,9 +27,9 @@ local tbAward =
 	[18]={nExp_tl=1,nRate = 0.2,nCount = 15000000,},
 	[19]={nExp_tl=1,nRate = 0.1,nCount = 20000000,},
 	[20]={szName="Tiªn Th¶o Lé ®Æc biÖt",tbProp={6,1,1181,1,0,0},nRate = 1,},
-	[21]={szName="Hoµng Kim Ên (C­êng hãa)",tbProp={0,3208,},nQuality=1,nRate = 0.2,nExpiredTime = 30 * 24 * 60,},
+	[21]={szName="Hoµng Kim Ên (C­êng hãa)",tbProp={0,3208,},nQuality=1,nRate = 0.2,nExpiredTime = 10080,},
 	[22]={szName="B¹ch C©u Hoµn ®Æc biÖt",tbProp={6,1,1157,1,0,0},nRate = 0.02,},
-	[23]={szName="Hoµng Kim Ên (C­êng hãa)",tbProp={0,3218,},nQuality=1,nRate = 0.2,nExpiredTime = 30 * 24 * 60,},
+	[23]={szName="Hoµng Kim Ên (C­êng hãa)",tbProp={0,3218,},nQuality=1,nRate = 0.2,nExpiredTime = 10080,},
 }
 
 function main(nIndexItem)

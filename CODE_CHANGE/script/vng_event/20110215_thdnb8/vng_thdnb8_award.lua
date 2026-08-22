@@ -16,7 +16,7 @@ tbAwardList =
 			},
 		["MatNaTK"] =
 			{
-				tbAward = {szName="MÆt n¹ - Anh hïng chiÕn tr­êng",tbProp={0,11,482,1,0,0},nCount=0,nExpiredTime=129600},
+				tbAward = {szName="MÆt n¹ - Anh hïng chiÕn tr­êng",tbProp={0,11,482,1,0,0},nCount=0,nExpiredTime=10080},
 				tbBitPos = {3},
 			},
 		["QuaHK"] = 

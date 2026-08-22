@@ -29,7 +29,7 @@ tbAward_Ext = {
 		{szName="MÀt tﬁch k‹ n®ng 150 (C p 19)",tbProp={6,1,30170,1,0,0},nCount=1,nRate=0.02},
 		{szName="MÀt tﬁch k‹ n®ng 150 (C p 20)",tbProp={6,1,30171,1,0,0},nCount=1,nRate=0.02},
 		{szName="Bπch C©u Hoµn Æ∆c bi÷t",tbProp={6,1,1157,1,0,0},nCount=1,nRate=2,nExpiredTime=20160},
-		{szName="M∆t nπ - Anh hÔng chi’n tr≠Íng",tbProp={0,11,482,1,0,0},nCount=1,nRate=0.1, nExpiredTime=10140, nUsageTime=60},
+		{szName="M∆t nπ - Anh hÔng chi’n tr≠Íng",tbProp={0,11,482,1,0,0},nCount=1,nRate=0.1, nExpiredTime=10080, nUsageTime=60},
 		{szName="HÂi thi™n t∏i tπo l‘ bao",tbProp={6,1,2527,1,0,0},nCount=1,nRate=1.05,nExpiredTime=43200},
 		{szName="Thanh C©u Thπch",tbProp={6,1,2710,1,0,0},nCount=1,nRate=0.5},
 		{szName="V©n LÈc Thπch",tbProp={6,1,2711,1,0,0},nCount=1,nRate=0.3},

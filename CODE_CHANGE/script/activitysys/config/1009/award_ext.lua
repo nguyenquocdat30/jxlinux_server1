@@ -61,7 +61,7 @@ tbAward_Ext = {
 			{szName="Kim Hoa Chi B∂o",tbProp={6,1,3002,1,0,0},nCount=1,nRate=3.3},
 			{szName="Phÿ ThÛy Chi B∂o",tbProp={6,1,3003,1,0,0},nCount=1,nRate=2, CallBack = _Message},
 			{szName="Phong V©n Chi B∂o",tbProp={6,1,3004,1,0,0},nCount=1,nRate=1, CallBack = _Message},
-			{szName="M∆t nπ V≠¨ng Gi∂",tbProp={0,11,561,1,0,0},nCount=1,nRate=1,nExpiredTime=43200, CallBack = _Message},	
+			{szName="M∆t nπ V≠¨ng Gi∂",tbProp={0,11,561,1,0,0},nCount=1,nRate=1,nExpiredTime=10080, CallBack = _Message},	
 		},
 	["awardnomal"] ={ --Server cÚ vµ si™u quang
 		{szName="Kim § L÷nh",tbProp={6,1,2349,1,0,0},nCount=1,nRate=0.1, CallBack = _Message},
@@ -93,7 +93,7 @@ tbAward_Ext = {
 		{szName="100000 ßi”m CËng Hi’n Bang HÈi",nCount=1,nRate=1, pFun = function() %pContributionAward(100000) end},
 		{szName="MÀt tﬁch k‹ n®ng 150 (C p 19)",tbProp={6,1,30170,1,0,0},nCount=1,nRate=0.02, CallBack = _Message},
 		{szName="MÀt tﬁch k‹ n®ng 150 (C p 20)",tbProp={6,1,30171,1,0,0},nCount=1,nRate=0.02, CallBack = _Message},
-		{szName="M∆t nπ V≠¨ng Gi∂",tbProp={0,11,561,1,0,0},nCount=1,nRate=0.05,nExpiredTime=43200, CallBack = _Message},
+		{szName="M∆t nπ V≠¨ng Gi∂",tbProp={0,11,561,1,0,0},nCount=1,nRate=0.05,nExpiredTime=10080, CallBack = _Message},
 		{szName="Anh HÔng Thi’p",tbProp={6,1,1604,1,0,0},nCount=1,nRate=1,nExpiredTime=43200},
 		{szName="HÂi thi™n t∏i tπo l‘ bao",tbProp={6,1,2527,1,0,0},nCount=1,nRate=1,nExpiredTime=43200},
 		{szName="S∏t ThÒ Gi∂n l‘ hÈp",tbProp={6,1,2339,1,0,0},nCount=1,nRate=1},

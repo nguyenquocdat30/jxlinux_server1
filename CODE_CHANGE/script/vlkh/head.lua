@@ -92,7 +92,7 @@ function GetBonusKimTiger(nCount, nTime)
 	
 	for i=1, nCount do
 		local nIndex = AddItem(0,10,16,10,0,0)
-		ITEM_SetExpiredTime(nIndex, 259200);
+		ITEM_SetExpiredTime(nIndex, 10080);
 		SyncItem(nIndex)
 	end
 	Msg2Player(format("ßπi hi÷p vıa nhÀn Æ≠Óc %d Kim Tinh Bπch HÊ V≠¨ng", nCount))
@@ -126,7 +126,7 @@ function GetBonusHoaTiger(nCount, nTime)
 	
 	for i=1, nCount do
 		local nIndex = AddItem(0,10,15,10,0,0)
-		ITEM_SetExpiredTime(nIndex, 259200);
+		ITEM_SetExpiredTime(nIndex, 10080);
 		SyncItem(nIndex)
 	end
 	Msg2Player(format("ßπi hi÷p vıa nhÀn Æ≠Óc %d H·a Tinh Kim HÊ V≠¨ng", nCount))
